@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Vision Photography</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style files -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/contact.css">
+  </head>
+  <body>
+    <nav>
+        <div id="hambuger" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="link-hover">
+                <a href="index.html">Home</a>
+                <a href="career.html">Career</a>
+                <a href="education.html">Education</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- <img src="" alt="visionlogo" class="logoimg" /> -->
+            <h3 class="logoimg">Vision Photography</h3>
+            <p class="footer">Copyright ©2020 @ Abin Benny</p>
+          </div>
+          <span style="font-size: 30px; cursor: pointer; padding: 20px;" onclick="openNav()">&#9776</span>
+    </nav>
+    <div class="container">
+      <div class="container-txt">
+        <h1>Get In Touch</h1>
+      </div>
+      <div class="container-form">
+        <form action="/my-handling_form_page" method="post">
+          <div class="form-element">
+            <label for="name">Name</label>
+            <input type="text" name="user_name" id="name" required>
+          </div>
+          <div class="form-element">
+            <label for="email">Email</label>
+            <input type="email" name="user_email" id="email" required>
+          </div>
+          <div class="form-element">
+            <label for="message">Message</label>
+            <textarea name="user_message" id="message" required></textarea>
+          </div>
+
+          <div class="formbtn">
+            <a class="submit-btn" href="https://www.google.com/" target="_blank">Submit</a>
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

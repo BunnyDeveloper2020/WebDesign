@@ -1,0 +1,96 @@
+.content {
+  width: 525px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.content-txt h1 {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: left;
+}
+.content-txt p {
+  color: #ffffff;
+  text-align: left;
+}
+.content-list ul li {
+  color: #ffffff;
+}
+/* testimonials */
+.testimonials-container {
+  border: 2px soild #cccccc6b;
+  border-radius: 5px;
+  padding: 16px;
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  background-color: #cccccc6b;
+}
+
+.testimonials-container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+/* Skillset */
+.skillset {
+  width: 525px;
+  background-color: #cccccc6b;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #cccccc6b;
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+  display: block;
+}
+
+.skills {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: #ffffff;
+  background-color: #6e6e6e;
+  border-radius: 6px;
+  border: 0.25px soild #cccccc;
+  margin: 10px;
+}
+
+.wdes,
+.wd,
+.alist,
+.tms {
+  width: 90%;
+  background-color: #f72362;
+}
+
+.ux,
+.comms {
+  width: 85%;
+  background-color: #f72363;
+}
+
+.ips {
+  width: 80%;
+  background-color: #f72363;
+}
+
+.php,
+.tplayer {
+  width: 75%;
+  background-color: #f72363;
+}
+
+.js,
+.prob {
+  width: 70%;
+  background-color: #f72363;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Vision Photography</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style files -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+
+    <script src="https://use.fontawesome.com/fab417e5fd.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav>
+        <div id="hambuger" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="link-hover">
+                <a href="index.html">Home</a>
+                <a href="career.html">Career</a>
+                <a href="education.html">Education</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- <img src="" alt="visionlogo" class="logoimg" /> -->
+            <h3 class="logoimg">Vision Photography</h3>
+            <p class="footer">Copyright ©2020 @ Abin Benny</p>
+          </div>
+          <span style="font-size: 30px; cursor: pointer; padding: 20px;" onclick="openNav()">&#9776</span>
+    </nav>
+
+    <div class="main">
+      <h1>See the world through My Lens</h1>
+    
+      <!-- gallery -->   
+      <div class="m-p-g">
+        <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+          <img src="http://unsplash.it/600/400?image=940" data-full="http://unsplash.it/1200/800?image=940" class="m-p-g__thumbs-img" />
+          <img src="http://unsplash.it/640/450?image=906" data-full="http://unsplash.it/1280/900?image=906" class="m-p-g__thumbs-img" />
+          <img src="http://unsplash.it/550/420?image=885" data-full="http://unsplash.it/1100/840?image=885" class="m-p-g__thumbs-img" />
+          <img src="http://unsplash.it/650/450?image=823" data-full="http://unsplash.it/1300/900?image=823" class="m-p-g__thumbs-img" />
+          <img src="http://unsplash.it/600/350?image=815" data-full="http://unsplash.it/1200/700?image=815" class="m-p-g__thumbs-img" />
+          <img src="http://unsplash.it/560/500?image=677" data-full="http://unsplash.it/1120/1000?image=677" class="m-p-g__thumbs-img" />
+        </div>
+    
+        <div class="m-p-g__fullscreen"></div>
+      </div>
+    </div>
+
+<!-- scripts -->
+    <script src="./js/main.js"></script>
+    <script src="./js/gallery.js"></script>
+  </body>
+</html>

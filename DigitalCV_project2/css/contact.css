@@ -1,0 +1,78 @@
+body {
+  background-image: url("/img/bgContact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+  height: 100%;
+}
+
+/* container */
+.container {
+  width: 100%;
+}
+
+.container-txt {
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+.container-txt:hover {
+  -webkit-text-fill-color: #ffffff00; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #f72362;
+}
+
+/* form */
+.container-form {
+  margin: 0px auto;
+  width: 360px;
+  background-color: #ffffff5c;
+  padding: 18px 20px 20px 20px;
+}
+form {
+  margin: 10px auto;
+}
+.form-element {
+  padding: 10px 0px 0px 0px;
+}
+.container-form .form-element label {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 12px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  text-decoration: none;
+  border: none;
+  background-color: #f72362;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 18px 20px;
+  transition: all0.5s ease 0s;
+  display: inline-block;
+  margin-top: 20px;
+  width: 320px;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  color: #f72362;
+  background-color: #ffffff;
+}
